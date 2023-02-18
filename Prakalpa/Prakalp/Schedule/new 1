@@ -1,0 +1,66 @@
+	
+	<section id="event">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-9">
+					<div id="event-carousel1" class="carousel slide" data-interval="false">
+						<h2 class="heading">Schedule</h2>
+						<a class="even-control-left" href="#event-carousel1" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<a class="even-control-right" href="#event-carousel1" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-event">
+											<p class="img-responsive" height="300px">Payment of registration fee should be done on the day of competition. Competitions will start at 9.30 a.m. sharp. 
+											Participants may plan for return journey after 7.00 p.m.</p>
+											<!--<h4>Chester Bennington</h4>
+											<h5>Vocal</h5>-->
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event" height="300px">
+											<p id="prizes1" class="img-responsive" ><li>Date of conference: March 18, 2016 (Friday)</li><li>Last date for sending paper via e-mail in standard two column format (A4 size paper, 12 font size, Times New Roman) on or before March 15, 2016</li></p>
+											<h3>I) Conference on Digital India</h3>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event" height="300px>
+										<p id="prizes1" class="img-responsive" ><li>Date of conference: March 18, 2016 (Friday)</li><li>Last date for sending entry via e-mail on or before March 15, 2016</li></p>
+											<h3><br /><br />Theme Based Project Competition on Digital India</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">									<div class="col-sm-4">
+										<div class="single-event">
+											<p id="prizes1" class="img-responsive" >Cash prizes: 1st prize Rs. 3000 /-,<br /> 2nd prize Rs.2000/- and <br /> 3rd prize Rs. 1000 /- and consolation prize Rs. 500/ in each category.</p>
+											<h3>Project exhibition/competition</h3>
+										</div>
+									</div>
+									
+									</div>
+								</div>
+								<div class="item">
+								<div class="row">									<div class="col-sm-4">
+										<div class="single-event">
+											<p id="prizes1" class="img-responsive" >Cash prizes: 1st prize Rs. 3000 /-,<br /> 2nd prize Rs.2000/- and <br /> 3rd prize Rs. 1000 /- and consolation prize Rs. 500/ in each category.</p>
+											<h3>Project exhibition/competition</h3>
+										</div>
+									</div>
+									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>			
+		</div>
+	
+	</section>
+	
+	

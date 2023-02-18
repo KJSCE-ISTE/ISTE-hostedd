@@ -1,0 +1,461 @@
+/* Reset */
+
+
+/* General */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#4ECDC4;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:16px;
+}
+	
+.swapu{
+	margin: 0 auto;
+	width:90%; 
+	max-width:960px;
+}
+
+.nil {
+	width:33.3%;
+	float:left;
+	margin-right:4.2%;
+	padding-top:10px;
+}
+.nil img {
+	width:100%;
+	max-width:320px;
+}	
+/* Footer */
+
+.footer {
+	width:100%;
+	margin-top:90px;
+	padding-top:50px;
+	font-size:9px;
+	background-image:url(../images/dashed.png);
+	background-repeat:repeat-x;
+	text-align:center;
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	line-height:25px;
+}	
+
+.footerInterior {
+	width:100%;
+	margin-top:90px;
+	padding:230px 0px 100px 0px;
+	font-size:9px;
+	letter-spacing:1px;
+	background-image:url(../images/fair2.png);
+	background-repeat:repeat-x;
+	background-position:top center;
+	text-align:center;
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	line-height:25px;
+	color:#ffffff;
+}
+
+#nav a:hover {
+	border-bottom:0px;
+}	
+
+/* Portfolio */
+	
+.info {
+	width:100%;
+	margin:50px 0px 50px 0px;
+	font-size:19px;
+	color:#ffffff;
+	line-height:30px;
+}
+/* Contact */
+
+.contactleft {
+	width:47.916667%; 
+	max-width:460px; 
+	float:left; 
+	margin-right:4.16667%;
+}
+
+.contactright {
+	width:47.916667%; 
+	max-width:460px; 
+	float:right;
+}
+
+.nameField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/name.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.emailField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/email.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.websiteField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/website.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.budgetField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/budget.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.timelineField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/timeline.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.testField {
+	width:94%; 
+	border:0px; 
+	padding:20px 3% 20px 3%; 
+	height:25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:25px;
+	color:#3C4955;
+	text-indent:65px;
+	background-image:url(../images/form/test.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.comments {
+	width:94%; 
+	border:0px; 
+	padding:30px 3% 20px 3%; 
+	height:190px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-family: 'ProvaRegular', Verdana, sans-serif;
+	font-size:20px;
+	margin-bottom:20px;
+	color:#3C4955;
+	text-indent:55px;
+	background-image:url(../images/form/comments.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+.fieldLabel {
+	font-size:29px;
+	color:#3C4955;
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	margin-bottom:12px;
+}
+.commentsLabel {
+	font-size:29px;
+	color:#3C4955;
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	margin:15px 0px 12px 0px;
+}
+.submit {
+	text-align:right;
+}	
+.submitBtn {
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#3C4955;
+	color:#4ECDC4;
+	font-size:25px;
+	padding:15px 30px 15px 30px;
+	border:0px;
+	cursor:pointer;
+}	
+.submitBtn:hover {
+	color:#ffffff;
+}	
+.contactMessage {
+	width:90%;
+	max-width:960px;
+	text-align:center;
+	font-size:25px;
+	margin:150px auto 250px auto;
+	color:#ffffff;
+}
+.messageTitle {
+	font-family: 'HandSlabRegular', Verdana, sans-serif;
+	color:#3C4955;
+	font-size:100px;
+	margin-bottom:40px;
+}		
+
+	
+/* Size 1025px */
+
+@media screen and (max-width:1025px) {
+
+.home {
+	float:none;
+	margin:0px auto 45px auto;
+}
+
+.nil {
+	width:100%;
+	float:none;
+	margin-right:4.2%;
+	padding-top:0px;
+	text-align:center;
+}
+.nil img {
+	width:100%;
+	max-width:320px;
+}	
+
+.contact {
+	display:none;
+}
+
+.contactPic {
+	display:inline;
+	width:72.67%;
+	max-width:327px;
+	opacity:1.0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity = 100);	
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}	
+
+.contactPic:hover {
+	background:none;
+	opacity:0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity = 50);
+}
+.contactleft {
+	width:100%; 
+	max-width:600px;
+	float:none; 
+}
+
+.contactright {
+	width:100%; 
+	max-width:600px;
+	float:none;
+}
+.fieldLabel {
+	font-size:23px;
+}
+.commentsLabel {
+	font-size:23px;
+}
+.submitBtn {
+	font-size:20px;
+	padding:12px 20px 12px 20px;
+}	
+
+}
+	
+/* Size 450px */
+
+@media screen and (max-width:450px) {
+
+}
+
+/* Size 400px */
+
+@media screen and (max-width:400px) {
+
+}
+/* Contact */
+
+
+
+.nameField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.emailField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.websiteField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.budgetField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.timelineField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.testField {
+	width:94%; 
+	padding:10px 3% 10px 3%; 
+	height:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:10px;
+	text-indent:35px;
+}
+.comments {
+	width:94%;  
+	padding:15px 3% 10px 3%; 
+	height:120px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+	margin-bottom:18px;
+	text-indent:35px;
+}
+.fieldLabel {
+	font-size:18px;
+	margin-bottom:6px;
+}
+.commentsLabel {
+	font-size:18px;
+	margin-bottom:6px;
+}
+.submitBtn {
+	font-size:16px;
+	padding:8px 12px 8px 12px;
+}	
+
+
+}
+
+
+
+/* Retina Display Images */
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+
+.nameField {
+	background-size:30px 29px;
+}
+.emailField {
+	background-size:30px 29px;
+}
+.websiteField {
+	background-size:30px 29px;
+}
+.budgetField {
+	background-size:30px 29px;
+}
+.timelineField {
+	background-size:30px 29px;
+}
+.testField {
+	background-size:30px 29px;
+}
+.comments {
+	background-size:30px 29px;
+}
+
+
+}				

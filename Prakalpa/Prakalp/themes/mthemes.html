@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>
+		
+		
+		</title>
+		<meta name="description" content="Blueprint: Responsive Content Slider" />
+		<meta name="keywords" content="responsive, content, slider, jquery, css3, fluid, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+	
+		<div class="container" style="background-color:#A4D3EE">
+
+			<div class="main" >
+				<div id="cbp-contentslider" class="cbp-contentslider" style="background-color:#F0FFFF">
+					<ul>
+						<li id="slide1" style="background-color:#F0FFFF">
+							<h3>Conference</h3>
+							<div>
+								<div class="cbp-content">
+									<h2><center>Conference on Artificial Intelligence on 31 March 2017</center></h2>
+									<p>The theme of this year’s Prakalpa is<b> Artificial Intelligence-Innovation towards Future</b>. Papers are invited from students based on any one of the following categories. Send the paper via e-mail only for scrutiny in standard two column IEEE format. In covering letter of e-mail quote your affiliation and the category. A maximum of 4 students can be present in a group
+									<br />1. <b>Machine Learning </b>
+<br>2.  <b>Computer Vision</b>
+<br>3.  <b>Natural Language processing </b>
+<br>4.  <b>Data Mining</b>
+<br>5.  <b>Artificial Neural Networks </b>
+<br>6.  <b>Evolutionary Algorithm</b></p>
+								</div>
+							</div>
+						</li>
+						<li id="slide2" style="background-color:#F0FFFF">
+							<h3>Technical Quiz</h3>
+							<div>
+								<div class="cbp-content">
+								<h2><center>Technical Quiz competition on 31st. March 2017.</center></h2>							
+								  <p>This year a technical quiz is being introduced for students from all branches. The quiz will be conducted in 2 rounds, with both being held on the same day. <br>The first round will be the elimination round where students from each branch will be asked questions with respect to their branch itself. The top 2 teams from each branch qualify for the final round.<br> The final round will have teams facing questions which will be based on the latest as well as on the technical developments which revolutionized the lives of humans. <br>A maximum of 3 students can be present in a team.<br> The team with the maximum points in the final round will be declared the winner.<br> The decision of the organizer will be final in this regard. All rights are reserved with organizers to disqualify entry at any level
+									</div>
+							</div>
+						</li>
+						<li id="slide3" style="background-color:#F0FFFF">
+							<h3>Project Competition</h3>
+							<div>
+								<div class="cbp-content">
+								<h2><center>Theme Based Project Competition on 1st. April 2017</center></h2>
+									<p>The PRAKALPA 17 will have separate section of theme based working project competition.  <br />
+									The theme is Artificial intelligence-Innovation towards Future. <br />
+									The participants are requested to send separate entries via e-mail for the above theme based project.<br>
+									A maximum of 4 students can be present in a group</p>
+									</div>
+							</div>
+						</li>
+						<li id="slide4" style="background-color:#F0FFFF">
+							<h3>Exhibition</h3>
+							<div>
+								<div class="cbp-content">
+									<h2><center>Working Model Exhibition/competition on 19 March 2016</center></h2>
+<p>This competition is open to FE to ME students from engineering colleges.<br /> Send the
+synopsis of project in any diverse field via e-mail for scrutiny.<br /> For the evaluation of this competition there will be separate category for FE/SE/TE and BE/ME, each with software and hardware based projects.<br /> Please mention year and type of project (software/hardware) in e-mail clearly while sending synopsis. <br />Same group with multiple entries on same topic/project/theme in all competitions is not permitted.<br>A maximum of 4 students can be present in a group</p>
+									</div>
+							</div>
+						</li>
+					</ul>
+					<nav>
+						<a href="#slide1" ><span>Conference</span></a>
+						<a href="#slide2" ><span>Technical Quiz</span></a>
+						<a href="#slide3" ><span>Project Competition</span></a>
+						<a href="#slide4" ><span>Model Exhibition</span></a>
+						</nav>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpContentSlider.min.js"></script>
+		<script>
+			$(function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpContentSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease-in-out',
+					// current item's index
+					current : 0
+				}
+				- destroy:
+				$( selector ).cbpContentSlider( 'destroy' );
+				*/
+
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+		</script>
+	</body>
+</html>

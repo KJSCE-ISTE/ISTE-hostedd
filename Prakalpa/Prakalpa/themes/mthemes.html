@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>
+		
+		
+		</title>
+		<meta name="description" content="Blueprint: Responsive Content Slider" />
+		<meta name="keywords" content="responsive, content, slider, jquery, css3, fluid, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+	
+		<div class="container" style="background-color:#A4D3EE">
+
+			<div class="main" >
+				<div id="cbp-contentslider" class="cbp-contentslider" style="background-color:#F0FFFF">
+					<ul>
+						<li id="slide1" style="background-color:#F0FFFF">
+							<h3>Conference</h3>
+							<div>
+								<div class="cbp-content">
+									<h2><center>Conference on Digital India on 18 March 2016</center></h2>
+									<p>The theme of this year’s Prakalpa is Digital India. Papers are invited from 
+									students based on any one of the following categories. Send the paper via e-mail only for 
+									scrutiny in standard two column IEEE format. In covering letter of e-mail quote your
+									affiliation and the category.<br />1. <b> Digital empowerment of citizens </b>: e-education, e-governance, etc.
+<br>2. <b>Swachh Bharat </b>: Engineering solutions
+<br>3.  <b>Smart Cities of Tomorrow’s India </b>
+<br>4.  <b>Internet of Things </b>: Growing network infrastructure creates opportunities for more direct
+integration between the physical world and computer-based systems 
+<br>5.  <b>Digital Security Systems </b>
+<br>6.  <b>Alternative Energy sources to Power Digital India </b>
+<br>7.  <b>Digital India </b>: Challenges to IT sector.</p>
+								</div>
+							</div>
+						</li>
+						<li id="slide2" style="background-color:#F0FFFF">
+							<h3>Theater play</h3>
+							<div>
+								<div class="cbp-content">
+								<h2><center>Open theater play competition on Digital India-Educated India on 18 March 2016</center></h2>							
+								  <p>The competition is for Open theater play of about fifteen minutes having script written with central idea as how technology can be used in connecting people.<br />
+								  The minimum participants per group are 02 and max 08.<br />
+								  The participants need to send the central idea about play via e-mail for scrutiny.<br />
+								  The script can be in Hindi, Marathi or English with ethical language. <br />
+								  All rights are reserved with organizers to disqualify entry at any level.</p>
+									</div>
+							</div>
+						</li>
+						<li id="slide3" style="background-color:#F0FFFF">
+							<h3>Project Competition</h3>
+							<div>
+								<div class="cbp-content">
+								<h2><center>Working Model Exhibition/competition on 19 March 2016</center></h2>
+									<p>The PRAKALPA- 16 will have separate section of theme based working project competition. <br />
+									The theme is Digital India projects should be related to sub topics given for conference.<br />
+									The participants are requested to send separate entries via e-mail for the above theme based project.</p>
+									</div>
+							</div>
+						</li>
+						<li id="slide4" style="background-color:#F0FFFF">
+							<h3>Exhibition</h3>
+							<div>
+								<div class="cbp-content">
+									<h2><center>Working Model Exhibition/competition on 19 March 2016</center></h2>
+<p>This competition is open to FE to ME students from engineering colleges.<br /> Send the
+synopsis of project in any diverse field via e-mail for scrutiny.<br /> For the evaluation of this competition there will be separate category for FE/SE/TE and BE/ME, each with software and hardware based projects.<br /> Please mention year and type of project (software/hardware) in e-mail clearly while sending synopsis. <br />Same group with multiple entries on same topic/project/theme in all competitions is not permitted</p>
+									</div>
+							</div>
+						</li>
+					</ul>
+					<nav>
+						<a href="#slide1" ><span>Conference</span></a>
+						<a href="#slide2" ><span>Open theater play</span></a>
+						<a href="#slide3" ><span>Project Competition</span></a>
+						<a href="#slide4" ><span>Working Model Exhibition</span></a>
+						</nav>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpContentSlider.min.js"></script>
+		<script>
+			$(function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpContentSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease-in-out',
+					// current item's index
+					current : 0
+				}
+				- destroy:
+				$( selector ).cbpContentSlider( 'destroy' );
+				*/
+
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+		</script>
+	</body>
+</html>

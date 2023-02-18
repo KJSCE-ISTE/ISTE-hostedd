@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.timestone_title{
+    font-family: 'Cinzel', serif;
+    font-size: 80px !important;
+}
+.background-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center !important;
+}
+.timestone_card-story{
+    background-color: transparent !important;
+    color: white !important;
+    border:none !important;
+    font-family: 'Bona Nova', serif;
+    font-size: 25px !important;
+    margin:0 auto ;
+    padding: 0 65px;
+
+}
+.timestone_card{
+    background-color: transparent !important;
+    color: white !important;
+    font-family: 'Noto Serif', serif;   
+    box-shadow: 0 0 35px rgb(43, 243, 193);
+    border-radius: 20px !important;
+}
+.hydra_image{
+    margin-top:-40px
+}
+

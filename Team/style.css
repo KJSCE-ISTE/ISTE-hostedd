@@ -1,0 +1,145 @@
+
+   body {
+  width: 100%;
+  color: white;
+}
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 	20px; 
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 	
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:20px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:#6d6e71 ;
+	color:#262626;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+	background:#262626 ;
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+
+
+
+ img{
+              -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray;
+          }
+div.layout{
+    /*max-width:100%;*/
+    max-height: auto;
+    /*margin: 8%;*/
+    border: 2px;
+    width: auto;
+    /*padding: 50px;*/
+    margin-left: 100px;
+   
+}
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h5{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 480px) {
+     #logo{
+      display: none;
+    }
+}
+#logo {
+       width: 90px; 
+       max-height: 90px;      
+    }
+#shape
+{
+     border-radius: 50%;
+    
+}
+.color{
+    filter: none;
+}
+.oval{
+/*     border-top-left-radius: 30px;*/
+ 
+        
+}
+
+.container-fluid{
+  padding: 30px 20px 30px 40px;
+/*    padding-right: 20px;*/
+}
+li {
+  display: block;
+  width: 300px;
+  height: 340px;
+  float: left;
+  margin: 15px;
+  background: none;
+  position: relative;
+  overflow: hidden;
+}
+li:hover img {
+  filter: none;
+}
+figcaption {
+  transition: top 0.4s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 13px 27px;
+  top: 255px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 780px)
+{
+  div.layout{
+    /*max-width:100%;*/
+    max-height: auto;
+    /*margin: 8%;*/
+    /*border: 2px;*/
+    width: auto;
+    /*padding: 50px;*/
+    margin-left: 10px;
+  }
+ 
+}
