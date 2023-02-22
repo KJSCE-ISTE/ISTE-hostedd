@@ -316,14 +316,14 @@ body {
     text-align: center;
 }
 .register{
-    color: #03070c;
-    background-color: #00fffc;
+    color: #ffffff;
+    background-color: #001eff;
     padding: 1em 2em;
     text-decoration: none;
 }
 .mailus{
-    color: black;
-    background-color: #82f9f5;
+    color: rgb(255, 255, 255);
+    background-color: #001eff;
     padding: 0.4em 0.7em;
     text-decoration: none;
     margin-top: 0.1em;
@@ -910,7 +910,7 @@ body {
     top: 30px;
     left: 0;
     padding: 10px 25px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#001eff, #0d1d99);
     font-size: 20px;
     font-weight: 500;
 }
