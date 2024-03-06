@@ -1,0 +1,95 @@
+.competitions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(100, 252, 241);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: 700;
+  color: aqua;
+}
+
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: aqua;
+}
+h4{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card2 {
+  background-color: rgb(17, 24, 39);
+  border: 2px solid rgb(100, 252, 241);
+  border-radius: 12px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  width: calc(30% - 30px); /* Adjust width to fit three cards in one line */
+}
+
+.card2 .card-content {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.card2 .card-image1 {
+  width: 100%;
+  height: 90%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+.card2 .card-image {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.info-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .card2 {
+    width: calc(50% - 30px); /* Adjust width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card2 {
+    width: calc(100% - 30px); /* Adjust width for mobile screens */
+  }
+}

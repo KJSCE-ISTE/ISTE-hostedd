@@ -1,0 +1,125 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: black;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-left: 12%;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo-iste {
+  width: 65px;
+  height: auto;
+}
+.logo-somaiya {
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 220px;
+  height: 65px;
+}
+
+.navbar-center {
+  position: relative;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu li {
+  font-family: poppins, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  margin: 5px;
+  padding: 10px;
+}
+
+.nav-menu li:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  display: none;
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  cursor: cursor;
+}
+
+.hamburger-menu img {
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed; /* Fixed positioning for mobile view */
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
