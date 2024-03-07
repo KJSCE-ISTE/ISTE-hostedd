@@ -13,7 +13,6 @@ import wtImage from "./assets/wt.jpg";
 import roboImage from "./assets/robo.jpg";
 import prakalpaImage from "./assets/prakalpa.png";
 import infoImage from "./assets/info-prakalpa.png";
-import openinno from "./assets/openinno.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { CompetitionContainer } from "./Info";

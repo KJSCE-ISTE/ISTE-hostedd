@@ -38,7 +38,7 @@ function Footer() {
           <div>
             <i className="fa fa-map-marker"></i>
             <p>
-              <a href="https://goo.gl/maps/RuN1KRaGL986kGSy8" target="_blank">
+              <a href="https://goo.gl/maps/RuN1KRaGL986kGSy8" target="_blank"  rel="noreferrer">
                 K. J. Somaiya College of Engineering, VidyaVihar
               </a>
             </p>
@@ -65,7 +65,7 @@ function Footer() {
           <div className="footer-icons">
             <a
               href="https://www.facebook.com/counciliste/?ref=br_rs"
-              target="_blank"
+              target="_blank"  rel="noreferrer"
             >
               <img
                 src={FacebookIcon}
@@ -77,7 +77,7 @@ function Footer() {
             </a>
             <a
               href="https://www.instagram.com/istekjsce/?hl=en"
-              target="_blank"
+              target="_blank"  rel="noreferrer"
             >
               <img
                 src={InstagramIcon}
@@ -87,7 +87,7 @@ function Footer() {
                 height="40"
               />
             </a>
-            <a href="mailto:iste.engg@somaiya.edu" target="_blank">
+            <a href="mailto:iste.engg@somaiya.edu" target="_blank"  rel="noreferrer">
               <img
                 src={MailIcon}
                 alt="Mail"
